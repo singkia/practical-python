@@ -28,6 +28,9 @@ while principal > 0:
 print('Total paid', round(total_paid,2))
 print('Months', month)
 
+s = f'Total paid:${total_paid:0.2f}  Months:{month}.'
+print(s)
+
 
 
 
